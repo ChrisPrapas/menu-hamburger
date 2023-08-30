@@ -30,7 +30,7 @@ const navLista = document.querySelectorAll('.nav-lista')
 function colorLink(){
     if(navLista){
         navLista.forEach(l=> l.classList.remove('ativo'))
-        this.classList.add('ativo')
+        // this.classList.add('ativo')
     }
 }
 navLista.forEach(l=> l.addEventListener('click', colorLink))
